@@ -3,7 +3,7 @@ layout: post
 author: Daniel
 title: IV 什麼是"Config.yml","Frontmatter"?
 ---
-:fa-exclamation-circle:**請注意 在寫yml格式的檔案時不能用 `tab鍵` 來縮排  !!**  
+<i class="em em-warning"></i>**請注意 在寫yml格式的檔案時不能用 `tab鍵` 來縮排  !!**  
 <br>
 Config.yml是Jekyll中很特別的檔案，可以讓網站開發者自行定義變數。Config.yml主要是用來定義全域變數。例如:
 

@@ -3,7 +3,7 @@ permalink:      /:year-:month-:day/:title
 
 # Setup
 title:          Jekyll 基礎教學網站
-paginate:       5
+paginate:       10
 baseurl:        "/Minicourse-Jekyll"
 url:            ""
 

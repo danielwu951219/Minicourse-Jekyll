@@ -5,7 +5,7 @@ author: Daniel
 ---
 
 Jekyll 是用Ruby語言所寫的程式，是一個部落格(或靜態網頁)產生器。  
-:fa-file:如何安裝Jekyll:[Windows版](https://github.com/tpemartin/E.Major-IT/blob/lec30-website-Jekyll-0/Course-development/lec30-website-Jekyll-0.md),[Mac版](https://jekyllrb.com/docs/installation/)
+<i class="em em-file_folder"></i>如何安裝Jekyll:[Windows版](https://github.com/tpemartin/E.Major-IT/blob/lec30-website-Jekyll-0/Course-development/lec30-website-Jekyll-0.md),[Mac版](https://jekyllrb.com/docs/installation/)
 
 <br>
 優點:
