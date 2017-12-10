@@ -2,10 +2,10 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          Tale
+title:          Jekyll 基礎教學網站
 paginate:       5
 baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+url:            ""
 
 # Assets
 sass:
@@ -17,7 +17,7 @@ markdown:       kramdown
 
 # About
 author:
-  name:         Chester How
+  name:         E.Major_IT
   url:          http://chester.how
   email:        chesterhow@gmail.com
 

@@ -8,11 +8,11 @@ $white: #fff;
 $blue: #4a9ae1;
 $shadow-color: rgba(0, 0, 0, .2);
 
-$baskerville: 'Libre Baskerville', 'Times New Roman', Times, serif;
-$palatino: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
-$sans-font: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+$baskerville:'cwTeXHei', 'Libre Baskerville', 'Times New Roman', Times, serif;
+$palatino: 'cwTeXHei',Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
+$sans-font: 'cwTeXHei','Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
 
-$monospaced-font: Menlo, Monaco, monospace;
+$monospaced-font:'cwTeXHei', Menlo, Monaco, monospace;
 $code-color: #bf616a;
 
 @mixin box-sizing($type: border-box) {
