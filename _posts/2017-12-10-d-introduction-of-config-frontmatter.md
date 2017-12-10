@@ -8,14 +8,12 @@ title: IV 什麼是"Config.yml","Frontmatter"?
 Config.yml是Jekyll中很特別的檔案，可以讓網站開發者自行定義變數。Config.yml主要是用來定義全域變數。例如:
 
 ```
----
-title:
-google analytics tracking code:
-paginator:
-ad:
- ad1:
- ad2:
----
+title:          Jekyll 基礎教學網站
+paginate:       10
+baseurl:        "/Minicourse-Jekyll"
+plugins:
+  - jekyll-paginate
+
 ```
 
 而Frontmatter也是yaml格式，但是只需要在html檔案的頁首進行宣告，宣告方式如下，比如說，我們會在寫文章時存成md檔，為了要讓jekyll讀懂這篇文章的layout是甚麼，以及liquid language所引入的變數是甚麼，我們會在文章的最開始寫上FRONTMATTER，同時在上下以`---`包住，告訴JEKYLL這是一個YAML格式:(以下舉例，變數可以依頁面的需求自行定義):

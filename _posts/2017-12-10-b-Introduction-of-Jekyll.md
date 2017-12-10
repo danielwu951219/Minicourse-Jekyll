@@ -2,6 +2,7 @@
 layout: post
 title: II Jekyll 簡介
 author: Daniel
+category: A
 ---
 
 Jekyll 是用Ruby語言所寫的程式，是一個部落格(或靜態網頁)產生器。  

@@ -2,6 +2,7 @@
 layout: post
 title: I 了解網站的基本架構
 author: Daniel
+category: A
 ---
 
 建立一個網站，首先需要具備 網域 主機  網站資料。  
@@ -12,5 +13,7 @@ author: Daniel
 ## 這三樣東西如何連結?
 首先我們會把網站資料放進主機，再將主機與網域作連結。我們必須告訴主機我們的域名(主機對網址)，同時也要把主機的ip告訴域名商(網址對主機)，當雙向連結完成，我們只要在瀏覽器中搜尋自己的域名就能夠看見網頁了。
 
-Practice 1
----
+## Html、Css 基礎介紹
+請見[簡易範例]({{site.baseurl}}/practice1.html)
+
+[推薦][Html與Css的教學網站](https://www.w3schools.com/)

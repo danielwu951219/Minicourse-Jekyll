@@ -7,7 +7,7 @@ title: V 如何使用Yaml變數?-  使用Shopify的 Liquid Language
 Liquid Langeage 是Shopify以ruby所寫的語言，簡單易懂，只要用條件句if,for,else,搭配Liquid Langeage的filter就可以寫出迴圈。以下我們會先介紹基本的語法，再透過實例介紹幾個常用於網站中的迴圈:
 ##### 基本用法
 **I** **引入變數**  
-用兩層大括號`{{"變數名稱"}}`，將先前在Config.yml或Front matter定義好的變數引入網頁中。
+用兩層大括號`{{ "{{ 變數名稱 " }}}}`，將先前在Config.yml或Front matter定義好的變數引入網頁中。
 
 **II** **迴圈**  
 
@@ -33,7 +33,6 @@ layout: post
 title: my-first-post
 category: A
 published: true
-permalink: my-first-post
 ---
 
 ```
@@ -113,3 +112,11 @@ layout: default
 ...
 
 ```
+---
+
+## Practice 2
+1. 在`_posts`資料夾中，先製作兩篇posts(注意命名方式)，並在fontmatter中設定`category: A`
+2. 在`practice2.html`利用liquid language與html語法，用清單的方式列出category為A的文章
+3. 最後在`practice2.html`中，利用liquid language 將`_includes`資料夾中`youtube.html`引入該頁面中。
+<br>
+完成後，你所製作的頁面將會出現在網站右上角的`Practice`連結內。
